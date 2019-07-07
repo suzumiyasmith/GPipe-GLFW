@@ -1,0 +1,32 @@
+name:                GPipe-GLFW
+version:             1.4.1.2
+github:              "suzumiyasmith/GPipe-GLFW"
+license:             BSD3
+author:              "suzumiya"
+maintainer:          "suzumiyasmith@gmail.com"
+copyright:           "(c) 2017-2019 Suzumiya"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/suzumiyasmith/GPipe-GLFW#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- stm >= 2.5
+- containers >= 0.6
+- async >= 2.2
+- GPipe
+- GLFW-b
+
+
+library:
+  source-dirs: src
